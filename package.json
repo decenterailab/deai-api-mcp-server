@@ -1,0 +1,42 @@
+{
+  "name": "deai-api-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for DeAI API - provides ethereum token information/holders/portfolio/balance changes/top holders/ details.",
+  "main": "src/server.js",
+  "type": "module",
+  "bin": {
+    "deai-api-mcp-server": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test.js",
+    "build": "npm install"
+  },
+  "keywords": [
+    "mcp",
+    "blockchain",
+    "ethereum",
+    "token",
+    "wallet",
+    "defi",
+    "api"
+  ],
+  "author": "DeCenter AI",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decenterailab/deai-api-mcp.git"
+  },
+  "homepage": "https://api.decenterai.dev",
+  "bugs": {
+    "url": "https://github.com/decenterailab/deai-api-mcp/issues"
+  }
+} 
