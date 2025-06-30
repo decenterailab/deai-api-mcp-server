@@ -58,14 +58,14 @@ Add this configuration to your Claude Desktop config file:
 
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
-**Linux**: ~/.config/Claude/claude_desktop_config.json
+**Linux**: `~/.config/Claude/claude_desktop_config.json`
 
 ```json
 {
   "mcpServers": {
     "deai-api": {
       "command": "node",
-      "args": ["/your_path/deai-api-mcp/src/server.js"],
+      "args": ["/your_path/deai-api-mcp-server/src/server.js"],
       "env": {
         "API_KEY": "your_api_key"
       }
@@ -101,7 +101,7 @@ Get portfolio data for wallet 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
 ### Project Structure
 
 ```
-deai-api-mcp/
+deai-api-mcp-server/
 ├── src/
 │   └── server.js          # Main MCP server implementation
 ├── package.json           # Dependencies and scripts
