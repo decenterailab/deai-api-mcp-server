@@ -57,7 +57,7 @@ The MCP server exposes the following tools for analytics (Currently supports ETH
 Add this configuration to your Claude Desktop config file:
 
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
-**Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
+**Windows**: `%APPDATA%/Claude/claude_desktop_config.json`  
 **Linux**: `~/.config/Claude/claude_desktop_config.json`
 
 ```json
