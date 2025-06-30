@@ -22,8 +22,8 @@ The MCP server exposes the following tools for analytics (Currently supports ETH
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/decenterailab/deai-api-mcp.git
-   cd deai-api-mcp
+   git clone https://github.com/decenterailab/deai-api-mcp-server.git
+   cd deai-api-mcp-server
    ```
 
 2. **Install dependencies:**
