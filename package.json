@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/decenterailab/deai-api-mcp.git"
+    "url": "https://github.com/decenterailab/deai-api-mcp-server.git"
   },
   "homepage": "https://api.decenterai.dev",
   "bugs": {
-    "url": "https://github.com/decenterailab/deai-api-mcp/issues"
+    "url": "https://github.com/decenterailab/deai-api-mcp-server/issues"
   }
 } 
